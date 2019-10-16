@@ -42,15 +42,15 @@ class TicTacToe
     puts "Please choose a number 1-9:"
     user_input = gets.chomp
     index = input_to_index(user_input)
-    if valid_move?(index)
-      player_token = current_player
-      move(index, player_token)
-      display_board
-    else
-      turn
+      if valid_move?(index)
+        player_token = current_player
+        move(index, player_token)
+        display_board
+      else
+        turn
+      end
     end
-  end
-     
+       
   def turn_count
       turn = 0
       @board.each do |index|
