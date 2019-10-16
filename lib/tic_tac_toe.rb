@@ -102,7 +102,7 @@ class TicTacToe
     end
   end
 
-def over?
+ def over?
     if won? || draw?
       return true
     else
