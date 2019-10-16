@@ -19,7 +19,7 @@ class TicTacToe
     return " #{@board[0]} | #{@board[1]} | #{@board[2]} \n-----------\n #{@board[3]} | #{@board[4]} | #{@board[5]} \n-----------\n #{@board[6]} | #{@board[7]} | #{@board[8]} "
    end
    
-   def input_to_index(index)
+   def input_to_index(input)
      return index = input to_a - 1 
    end 
    
