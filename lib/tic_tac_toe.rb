@@ -48,5 +48,4 @@ class TicTacToe
       return turn
     end
     
-  end 
 end 
