@@ -23,7 +23,7 @@ class TicTacToe
      return index = input.to_i - 1 
    end 
    
-  def move(index, )
+  def move(index, board, character)
     board[index] = character
     turn_count(board)
     display_board(board)
